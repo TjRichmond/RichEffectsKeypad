@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name MDBT42Q-P512KV2)(type Legacy)(uri ${KIPRJMOD}/KiCad/MDBT42Q-P512KV2.mod)(options "")(descr ""))
-)
