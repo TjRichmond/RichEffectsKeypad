@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Crystal Y?
+U 1 1 60A22C9B
+P 2700 3450
+F 0 "Y?" H 2550 3325 50  0000 L CNN
+F 1 "32.768KHz" H 2425 3250 50  0000 L CNN
+F 2 "" H 2700 3450 50  0001 C CNN
+F 3 "~" H 2700 3450 50  0001 C CNN
+	1    2700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A2AF35
+P 2400 3450
+F 0 "C?" V 2652 3450 50  0000 C CNN
+F 1 "22pF" V 2561 3450 50  0000 C CNN
+F 2 "" H 2438 3300 50  0001 C CNN
+F 3 "~" H 2400 3450 50  0001 C CNN
+	1    2400 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A2D84E
+P 2850 3800
+F 0 "C?" H 3025 3775 50  0000 C CNN
+F 1 "22pF" H 3025 3850 50  0000 C CNN
+F 2 "" H 2888 3650 50  0001 C CNN
+F 3 "~" H 2850 3800 50  0001 C CNN
+	1    2850 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60A2F631
+P 2850 3950
+F 0 "#PWR0101" H 2850 3700 50  0001 C CNN
+F 1 "GND" H 2855 3777 50  0000 C CNN
+F 2 "" H 2850 3950 50  0001 C CNN
+F 3 "" H 2850 3950 50  0001 C CNN
+	1    2850 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60A2FDF0
+P 2250 3450
+F 0 "#PWR0102" H 2250 3200 50  0001 C CNN
+F 1 "GND" H 2255 3277 50  0000 C CNN
+F 2 "" H 2250 3450 50  0001 C CNN
+F 3 "" H 2250 3450 50  0001 C CNN
+	1    2250 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MDBT42Q-P512KV2:MDBT42Q-P512KV2 IC?
+U 1 1 60A319B3
+P 3275 2125
+F 0 "IC?" H 4125 2390 50  0000 C CNN
+F 1 "MDBT42Q-P512KV2" H 4125 2299 50  0000 C CNN
+F 2 "MDBT42QP512KV2" H 4825 2225 50  0001 L CNN
+F 3 "https://www.raytac.com/upload/download_files/38a8a4a0aff945d8484507d60058109b.pdf" H 4825 2125 50  0001 L CNN
+F 4 "BT 4.2 & BT 5 Module (nRF52832)" H 4825 2025 50  0001 L CNN "Description"
+F 5 "2.2" H 4825 1925 50  0001 L CNN "Height"
+F 6 "Raytech" H 4825 1825 50  0001 L CNN "Manufacturer_Name"
+F 7 "MDBT42Q-P512KV2" H 4825 1725 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 4825 1625 50  0001 L CNN "Mouser Part Number"
+F 9 "" H 4825 1525 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4825 1425 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 4825 1325 50  0001 L CNN "Arrow Price/Stock"
+	1    3275 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45B2D
+P 2250 3050
+F 0 "#PWR?" H 2250 2800 50  0001 C CNN
+F 1 "GND" H 2175 3050 50  0000 R CNN
+F 2 "" H 2250 3050 50  0001 C CNN
+F 3 "" H 2250 3050 50  0001 C CNN
+	1    2250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A46BFE
+P 3200 2125
+F 0 "#PWR?" H 3200 1875 50  0001 C CNN
+F 1 "GND" V 3205 1997 50  0000 R CNN
+F 2 "" H 3200 2125 50  0001 C CNN
+F 3 "" H 3200 2125 50  0001 C CNN
+	1    3200 2125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 2125 3275 2125
+$Comp
+L power:GND #PWR?
+U 1 1 60A49014
+P 5075 2325
+F 0 "#PWR?" H 5075 2075 50  0001 C CNN
+F 1 "GND" V 5080 2197 50  0000 R CNN
+F 2 "" H 5075 2325 50  0001 C CNN
+F 3 "" H 5075 2325 50  0001 C CNN
+	1    5075 2325
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4975 2325 5075 2325
+$Comp
+L power:GND #PWR?
+U 1 1 60A49F8B
+P 5075 3825
+F 0 "#PWR?" H 5075 3575 50  0001 C CNN
+F 1 "GND" V 5080 3697 50  0000 R CNN
+F 2 "" H 5075 3825 50  0001 C CNN
+F 3 "" H 5075 3825 50  0001 C CNN
+	1    5075 3825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4975 3825 5075 3825
+$Comp
+L Device:C C?
+U 1 1 60A4B40C
+P 2400 2250
+F 0 "C?" V 2652 2250 50  0000 C CNN
+F 1 "1uF" V 2561 2250 50  0000 C CNN
+F 2 "" H 2438 2100 50  0001 C CNN
+F 3 "~" H 2400 2250 50  0001 C CNN
+	1    2400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 60A5334D
+P 2750 2700
+F 0 "L?" H 2650 2675 50  0000 C CNN
+F 1 "10uH" H 2650 2750 50  0000 C CNN
+F 2 "" H 2750 2700 50  0001 C CNN
+F 3 "~" H 2750 2700 50  0001 C CNN
+	1    2750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 60A5479C
+P 2750 2400
+F 0 "L?" H 2650 2325 50  0000 C CNN
+F 1 "15nH" H 2650 2400 50  0000 C CNN
+F 2 "" H 2750 2400 50  0001 C CNN
+F 3 "~" H 2750 2400 50  0001 C CNN
+	1    2750 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A611ED
+P 2250 2250
+F 0 "#PWR?" H 2250 2000 50  0001 C CNN
+F 1 "GND" H 2255 2077 50  0000 C CNN
+F 2 "" H 2250 2250 50  0001 C CNN
+F 3 "" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60A6BA1F
+P 2400 3050
+F 0 "C?" V 2200 3050 50  0000 C CNN
+F 1 "10uF" V 2275 3050 50  0000 C CNN
+F 2 "" H 2438 2900 50  0001 C CNN
+F 3 "~" H 2400 3050 50  0001 C CNN
+	1    2400 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 3450 2550 3325
+Connection ~ 2550 3450
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60A71999
+P 2650 3050
+F 0 "#PWR?" H 2650 2900 50  0001 C CNN
+F 1 "+3V3" H 2625 3200 50  0000 C CNN
+F 2 "" H 2650 3050 50  0001 C CNN
+F 3 "" H 2650 3050 50  0001 C CNN
+	1    2650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3450 2850 3425
+Connection ~ 2850 3450
+$Comp
+L power:GND #PWR?
+U 1 1 60A9ADB5
+P 3200 3225
+F 0 "#PWR?" H 3200 2975 50  0001 C CNN
+F 1 "GND" V 3205 3097 50  0000 R CNN
+F 2 "" H 3200 3225 50  0001 C CNN
+F 3 "" H 3200 3225 50  0001 C CNN
+	1    3200 3225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 3225 3275 3225
+Wire Wire Line
+	2850 3450 2850 3650
+Wire Wire Line
+	2550 2250 2750 2250
+Connection ~ 2750 2250
+Wire Wire Line
+	2750 2250 2850 2250
+Wire Wire Line
+	2850 2250 2850 2925
+Wire Wire Line
+	2750 2850 2750 3025
+Wire Wire Line
+	2550 3050 2650 3050
+Wire Wire Line
+	2650 3050 2650 3125
+Connection ~ 2650 3050
+Text GLabel 3275 2825 0    39   Input ~ 0
+A7_P0.31
+Wire Wire Line
+	2850 2925 3275 2925
+Wire Wire Line
+	2850 3425 3275 3425
+Wire Wire Line
+	2550 3325 3275 3325
+Wire Wire Line
+	2650 3125 3275 3125
+Wire Wire Line
+	2750 3025 3275 3025
+Text GLabel 3275 2725 0    39   Input ~ 0
+A6_P0.30
+Text GLabel 3275 2625 0    39   Input ~ 0
+A5_P0.29
+Text GLabel 3275 2525 0    39   Input ~ 0
+A4_P0.28
+Text GLabel 4975 2725 2    39   Input ~ 0
+MISO
+Text GLabel 4975 2625 2    39   Output ~ 0
+MOSI
+Text GLabel 4975 3425 2    39   Input ~ 0
+RESET
+Text GLabel 4975 3525 2    39   Output ~ 0
+SWCLK
+Text GLabel 4975 3625 2    39   BiDi ~ 0
+SWDIO
+Text GLabel 4975 2525 2    39   Output ~ 0
+SCK
+Text GLabel 3275 3925 0    39   Output ~ 0
+TX0
+Text GLabel 3275 4125 0    39   Input ~ 0
+RX0
+Text GLabel 3275 4025 0    39   UnSpc ~ 0
+P0.07
+Text GLabel 3275 2225 0    39   Output ~ 0
+SDA
+Text GLabel 3275 2325 0    39   Output ~ 0
+SCL
+Text GLabel 3275 2425 0    39   UnSpc ~ 0
+P0.27
+Text GLabel 4975 2425 2    39   UnSpc ~ 0
+P0.11
+NoConn ~ 4975 2125
+NoConn ~ 4975 2225
+Text GLabel 3275 3525 0    39   Input ~ 0
+A0_0.02
+Text GLabel 3275 3625 0    39   Input ~ 0
+A1_0.03
+Text GLabel 3275 3725 0    39   Input ~ 0
+A2_0.04
+Text GLabel 3275 3825 0    39   Input ~ 0
+A3_0.05
+NoConn ~ 4975 3925
+NoConn ~ 4975 4025
+Text GLabel 4975 3325 2    39   UnSpc ~ 0
+DFU
+Text GLabel 4975 3125 2    39   Input ~ 0
+SW0
+Text GLabel 4975 3725 2    39   UnSpc ~ 0
+FRST
+Text GLabel 4975 2825 2    39   UnSpc ~ 0
+P0.15
+Text GLabel 4975 2925 2    39   UnSpc ~ 0
+P0.16
+$EndSCHEMATC
