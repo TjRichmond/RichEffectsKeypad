@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDBT42Q-P512KV2
+D BT 4.2 & BT 5 Module (nRF52832)
+K
+F https://www.raytac.com/upload/download_files/38a8a4a0aff945d8484507d60058109b.pdf
+$ENDCMP
+#
+#End Doc Library
