@@ -1,3 +1,8 @@
 (sym_lib_table
-  (lib (name MDBT42Q-P512KV2)(type Legacy)(uri ${KIPRJMOD}/KiCad/MDBT42Q-P512KV2.lib)(options "")(descr ""))
+  (lib (name MDBT42Q-P512KV2)(type Legacy)(uri "D:/Git Repos/RichEffectsKeypad/Electrical/Components/MDBT42Q/MDBT42Q-P512KV2.lib")(options "")(descr ""))
+  (lib (name DMG3415U-7)(type Legacy)(uri "D:/Git Repos/RichEffectsKeypad/Electrical/Components/DMG3415U-7/DMG3415U-7.lib")(options "")(descr ""))
+  (lib (name KMR221)(type Legacy)(uri ${KIPRJMOD}/Components/Switch_C&K_KMR221GLFS/KMR221.lib)(options "")(descr ""))
+  (lib (name MBR120)(type Legacy)(uri "${KIPRJMOD}/Components/Diode_On Semiconductor_MBR120VLSFT1/MBR120.lib")(options "")(descr ""))
+  (lib (name B2B-PH-SM4-TB_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/Components/B2B-PH-SM4-TB_LF__SN_/B2B-PH-SM4-TB_LF__SN_.lib)(options "")(descr ""))
+  (lib (name Driver_LED)(type Legacy)(uri ${KIPRJMOD}/Components/Driver_LED/Driver_LED.lib)(options "")(descr ""))
 )

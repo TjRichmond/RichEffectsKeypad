@@ -1,0 +1,54 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C&K KMR221GLFS
+#
+DEF KMR221GLFS SW 0 40 Y Y 1 L N
+F0 "SW" 0 200 50 H V L CNN 
+F1 "KMR221GLFS" 0 300 50 H V L CNN 
+F2 "CK-KMR221GLFS-*" 0 400 50 H I L CNN 
+F3 "https://www.ckswitches.com/media/1479/kmr2.pdf" 0 500 50 H I L CNN 
+F4 "No" 0 600 50 H I L CNN "automotive"
+F5 "Switch" 0 700 50 H I L CNN "category"
+F6 "50mA" 0 800 50 H I L CNN "contact current rating"
+F7 "100mΩ" 0 900 50 H I L CNN "contact resistance"
+F8 "Electromechanical" 0 1000 50 H I L CNN "device class L1"
+F9 "Switches" 0 1100 50 H I L CNN "device class L2"
+F10 "Tactile Switches" 0 1200 50 H I L CNN "device class L3"
+F11 "SWITCH TACTILE SPST-NO 0.05A 32V" 0 1300 50 H I L CNN "digikey description"
+F12 "401-1427-1-ND" 0 1400 50 H I L CNN "digikey part number"
+F13 "200000Cycles" 0 1500 50 H I L CNN "electromechanical life"
+F14 "1.9mm" 0 1600 50 H I L CNN "height"
+F15 "Yes" 0 1700 50 H I L CNN "lead free"
+F16 "ae41f1c5fc8639fe" 0 1800 50 H I L CNN "library id"
+F17 "C&K" 0 1900 50 H I L CNN "manufacturer"
+F18 "Surface Mount" 0 2000 50 H I L CNN "mount"
+F19 "Tactile Switches SPST Rnd Bttn Gull .05A 32VDC 1W SMD\\n" 0 2100 50 H I L CNN "mouser description"
+F20 "611-KMR221G-LFS" 0 2200 50 H I L CNN "mouser part number"
+F21 "2N" 0 2300 50 H I L CNN "operating force"
+F22 "SMT5_TACT_SWITCH" 0 2400 50 H I L CNN "package"
+F23 "Yes" 0 2500 50 H I L CNN "rohs"
+F24 "+85°C" 0 2600 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2700 50 H I L CNN "temperature range low"
+F26 "SPST-NO" 0 2800 50 H I L CNN "throw configuration"
+F27 "32V" 0 2900 50 H I L CNN "voltage rating DC"
+DRAW
+X 1 1 100 0 200 R 40 0 1 1 P 
+X 2 2 100 -200 200 R 40 0 1 1 P 
+X 3 3 900 0 200 L 40 0 1 1 P 
+X 4 4 900 -200 200 L 40 0 1 1 P 
+X GROUND 5 900 -400 100 L 40 40 1 1 W 
+C 430 -100 20 1 1 0 N
+C 570 -100 20 1 1 0 N
+P 2 1 1 0 450 -90 550 -30 N
+P 2 1 1 0 300 0 300 -100 N
+P 2 1 1 0 300 -100 400 -100 N
+P 2 1 1 0 300 -200 300 -100 N
+P 2 1 1 0 700 -100 700 0 N
+P 2 1 1 0 600 -100 700 -100 N
+P 2 1 1 0 700 -100 700 -200 N
+S 200 100 800 -500 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library

@@ -1,3 +1,8 @@
 (fp_lib_table
-  (lib (name MDBT42Q-P512KV2)(type Legacy)(uri ${KIPRJMOD}/KiCad/MDBT42Q-P512KV2.mod)(options "")(descr ""))
+  (lib (name MDBT42Q-P512KV2)(type KiCad)(uri "D:/Git Repos/RichEffectsKeypad/Electrical/Components/MDBT42Q")(options "")(descr ""))
+  (lib (name DMG3415U-7)(type KiCad)(uri "D:/Git Repos/RichEffectsKeypad/Electrical/Components/DMG3415U-7")(options "")(descr ""))
+  (lib (name MBR120)(type KiCad)(uri "${KIPRJMOD}/Components/Diode_On Semiconductor_MBR120VLSFT1/MBR120.pretty")(options "")(descr ""))
+  (lib (name KMR221)(type KiCad)(uri ${KIPRJMOD}/Components/Switch_C&K_KMR221GLFS/KMR221.pretty)(options "")(descr ""))
+  (lib (name B2B-PH-SM4-TB_LF__SN_)(type KiCad)(uri ${KIPRJMOD}/Components/B2B-PH-SM4-TB_LF__SN_)(options "")(descr ""))
+  (lib (name Driver_LED)(type KiCad)(uri ${KIPRJMOD}/Components/Driver_LED)(options "")(descr ""))
 )
